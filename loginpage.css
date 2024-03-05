@@ -1,0 +1,193 @@
+body{
+  margin:0px;
+  padding:0px;
+}
+
+.body-container{
+  width:100%;
+  height:100vh;
+  background-color:rgb(150, 150, 150);
+}
+
+.login-box-container{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.login-box{
+  height:90vh;
+  width:600px;
+  background-color:white;
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius:15px;
+  position:relative;
+}
+
+.img1-class{
+  display:flex;
+  justify-content:center;
+}
+
+.twitter-icon{
+  height:45px;
+}
+
+.close-button{
+  position:relative;
+}
+
+.close-symbol{
+  position:absolute;
+  top:15px;
+  left:15px;
+  font-size:15px;
+  font-weight:bold;
+}
+
+.signin-class{
+  font-size:30px;
+  font-weight:bold;
+  margin-bottom:30px;
+  position:absolute;
+  top:70px;
+  left:150px;
+}
+
+.login-details{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin-top:90px;
+}
+
+.google-icon{
+  height:25px;
+  margin-right:5px;
+}
+
+.google-signin-button , .apple-signin-button{
+  background-color:white;
+  border: 1px solid lightgrey;
+  display:flex;
+  align-items:center;
+  padding:6px 75px 6px 75px;
+  border-radius:25px;
+  font-size:14px;
+  color:rgb(78, 78, 78);
+  cursor:pointer;
+  transition:background-color 0.15s;
+}
+
+.google-signin-button:hover{
+  background-color:rgba(228, 241, 241, 0.299);
+}
+
+.apple-signin-button{
+  padding:8px 70px 8px 70px;
+  font-weight:bold;
+  color:black;
+  margin-top:25px;
+  transition:background-color 0.15s;
+}
+
+.apple-signin-button:hover{
+  background-color:rgba(231, 228, 228, 0.906);
+}
+
+.apple-icon{
+  height:22px;
+  margin-right:0px;
+}
+
+.hr-or-class{
+  width:300px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:15px;
+}
+
+.hr-class{
+  width:43%;
+  border:1px solid lightgrey;
+}
+
+.or-class{
+  color:grey;
+}
+
+.contact-info{
+  border:1px solid lightgrey;
+  border-radius:4px;
+  padding:18px 10px 18px 10px;
+  width:280px;
+  font-size:17px;
+  margin-top:15px;
+}
+
+.contact-info:active{
+  border-color: blue;
+}
+
+.next-button{
+  background-color:black;
+  color:white;
+  border:none;
+  width:300px;
+  border-radius:18px;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top:25px;
+  font-size:14px;
+  font-weight:bold;
+  cursor:pointer;
+  transition:opacity 0.15s;
+}
+
+.next-button:hover{
+  opacity:0.8;
+}
+
+.forgot-button{
+  background-color:white;
+  color:black;
+  font-size:15px;
+  font-weight:bold;
+  width:300px;
+  border:1px solid lightgrey;
+  padding-top:8px;
+  padding-bottom:8px;
+  border-radius:18px;
+  margin-top:25px;
+}
+
+.forgot-button:hover{
+  background-color:rgba(231, 228, 228, 0.906)
+}
+
+.account-class{
+  margin-top:55px;
+  font-size:15px;
+  color:grey;
+  position:absolute;
+  bottom:85px;
+  left:150px;
+}
+
+.signup-class{
+  color:rgb(88, 190, 224);
+}
+
+.signup-class:hover{
+  text-decoration:underline;
+}
+
+.hr-or-class{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+}
